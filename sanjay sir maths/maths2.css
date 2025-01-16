@@ -1,0 +1,464 @@
+body{
+    background-color: rgb(234 188 138);
+    margin: 0px;
+    padding: 0px;
+
+}
+
+@media only screen and (max-width:640px){
+    body{
+        background-color: rgb(234 188 138);
+        margin: 0px;
+        padding: 0px;
+        max-width: 640px;
+    
+    }
+}
+
+
+
+
+/* creating navigation bar */
+
+
+#nav{
+    display: flex;
+   
+    align-items: center;
+    position:relative;
+    left: 0px;
+    width: 100%;
+  
+    
+    top: 0px;
+    
+   
+    
+}
+#nav::before{
+    content: "";
+    background-color: #b700b2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+  
+}
+#logo{
+    margin: 10px 3px ;
+}
+#logo img{
+    height: 86px;
+    width: 100px;
+    border-radius: 100px;
+    margin: 3px 6px;
+}
+#nav ul{
+    display: flex;
+    
+   
+}
+/* #nav ul li{
+    list-style: none;
+    font-size: 1.3rem;
+} */
+#nav ul a li{
+    color: beige;
+    display: block;
+    padding: 0px 48px;
+    border-radius: 2px;
+    text-decoration:none;
+    list-style: none;
+    font-size: 32px;
+    font-family: "Rakkas", serif;
+}
+#nav ul li:hover{
+    color: brown;
+    background-color: azure;
+}
+
+/* mediA queries for navigation bar */
+@media only screen and (max-width:640px) {
+    
+    #nav{
+        display: flex;
+       
+        align-items: center;
+        position:relative;
+        left: 0px;
+        width: 100%;
+      
+        
+        top: 0px;
+        
+       
+        
+    }
+    #nav::before{
+        content: "";
+        background-color: #b700b2;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.7;
+      
+    }
+    #logo{
+        margin: 10px 3px ;
+    }
+    #logo img{
+        height: 86px;
+        width: 100px;
+        border-radius: 100px;
+        margin: 3px 6px;
+    }
+    #nav ul{
+        display: flex;
+        
+       
+    }
+    /* #nav ul li{
+        list-style: none;
+        font-size: 1.3rem;
+    } */
+    #nav ul a li{
+        color: beige;
+        display: block;
+        padding: 19px 20px;
+        border-radius: 2px;
+        text-decoration:none;
+        list-style: none;
+        font-size: 18px;
+        font-family: "Rakkas", serif;
+    }
+    #nav ul li:hover{
+        color: brown;
+        background-color: azure;
+    }
+        
+    }
+
+
+
+h1{
+    margin-left:420px ;
+    font-family: "Bungee Tint", sans-serif;
+}
+
+/* creating css for maths-II */
+/* CREATING CSS FOR MATHS -II */
+#em2 > div{
+    border: 5px solid black;
+ border-radius: 5px;
+ display: flex;
+ position: relative;
+ flex-direction: row;
+ margin-top: 20px;
+ height: 525px;
+ width: 90%;
+ margin-left: 50px;
+ margin-right: 50px;
+ 
+ 
+ }
+ 
+ .m21::before{
+   content: "";
+   background: url("@m2u11.jpg") no-repeat center center/cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 525px;
+   z-index: -1;
+   opacity: 0.9;
+   
+     
+ }
+ .m22::before{
+   content: "";
+   background: url("@m2u12.jpg") no-repeat center center/cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 519px;
+   z-index: -1;
+   opacity: 0.9;
+   
+     
+ }
+ .m23::before{
+   content: "";
+   background: url("@m2u13.jpg") no-repeat center center/cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 525px;
+   z-index: -1;
+   opacity: 0.9;
+   
+     
+ }
+ .m24::before{
+   content: "";
+   background: url("@m2u14.jpg") no-repeat center center/cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 525px;
+   z-index: -1;
+   opacity: 0.9;
+   
+     
+ }
+ .m25::before{
+   content: "";
+   background: url("@m2u15.jpg") no-repeat center center/cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 525px;
+   z-index: -1;
+   opacity: 0.9;
+   
+     
+ }
+ 
+ #em2 >div >a >button{
+    border: 2px solid greenyellow;
+    border-radius: 10px; 
+    height: 46px;
+    width: 200px;
+    background-color: rgb(255, 105, 18);
+   margin-top: 460px;
+   margin-left: 246px;
+   font-size: 20px;
+   font-weight: bolder;
+ 
+ }
+ 
+  /* mediA queries for maths II */
+  @media only screen and (max-width:640px){
+    #em2 > div{
+       border: 5px solid black;
+       border-radius: 5px;
+       display: flex;
+       position: relative;
+       flex-direction: row;
+       margin-top: 20px;
+       height: 525px;
+       width: 640px;
+       margin-left: 0px;
+       margin-right: 50px;
+    
+    
+    }
+    
+    .m21::before{
+      content: "";
+      background: url("@m2u11.jpg") no-repeat center center/cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 525px;
+      z-index: -1;
+      opacity: 0.9;
+      
+        
+    }
+    .m22::before{
+      content: "";
+      background: url("@m2u12.jpg") no-repeat center center/cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 519px;
+      z-index: -1;
+      opacity: 0.9;
+      
+        
+    }
+    .m23::before{
+      content: "";
+      background: url("@m2u13.jpg") no-repeat center center/cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 525px;
+      z-index: -1;
+      opacity: 0.9;
+      
+        
+    }
+    .m24::before{
+      content: "";
+      background: url("@m2u14.jpg") no-repeat center center/cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 525px;
+      z-index: -1;
+      opacity: 0.9;
+      
+        
+    }
+    .m25::before{
+      content: "";
+      background: url("@m2u15.jpg") no-repeat center center/cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 525px;
+      z-index: -1;
+      opacity: 0.9;
+      
+        
+    }
+    
+    #em2 >div >a >button{
+       border: 2px solid greenyellow;
+       border-radius: 10px; 
+       height: 46px;
+       width: 200px;
+       background-color: rgb(255, 105, 18);
+      margin-top: 351px;
+      margin-left: 99px;
+      font-size: 20px;
+      font-weight: bolder;
+    
+    }
+  }
+
+
+ /* creating css for important question */
+.iq{
+    border: 2px solid salmon;
+    height: 200px;
+    background-color: rgb(92, 92, 119);
+    width: 100%;
+}
+
+
+
+
+.iq>a >button{
+    border: 5px solid yellow;
+    background-color: aliceblue;
+    height: 150px;
+    width: 60%;
+    border-radius: 100px;
+    margin-top: 25px;
+    margin-left: 248px;
+    
+
+}
+
+
+/* creating css for previous year question paper  */
+.pyq{
+    border: 2px solid salmon;
+    height: 200px;
+    background-color: rgb(92, 92, 119);
+    width: 100%;
+}
+
+
+
+
+.pyq > a >button{
+    border: 5px solid yellow;
+    background-color: aliceblue;
+    height: 150px;
+    width: 60%;
+    border-radius: 100px;
+    margin-top: 25px;
+    margin-left: 248px;
+    
+
+}
+ /* mediA queries for pyq question */
+ @media only screen and (max-width:640px){
+    .pyq{
+        border: 2px solid salmon;
+        height: 200px;
+        background-color: rgb(92, 92, 119);
+        width: 100%;
+    }
+    
+    
+    
+    
+    .pyq >a >button{
+        border: 5px solid yellow;
+        background-color: aliceblue;
+        height: 150px;
+        width: 60%;
+        border-radius: 100px;
+        margin-top: 25px;
+        margin-left: 123px;
+        
+    
+    }
+
+ }
+/* CREATING CSS FOR FOOTER */
+
+.foot{
+    margin-left: 420px;
+   
+   }
+
+   footer{
+     
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 2px;
+    padding-left: 420px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: white;
+   }
+   .ft{
+    font-family: "Permanent Marker", cursive;
+    margin-left: 0px;
+   }
+   
+   /* media queries for footer   */
+
+   @media only screen and (max-width:640px){
+
+    .foot{
+        margin-left: 150px;
+        font-family: "Bungee Tint", sans-serif;
+       }
+    
+       footer{
+        border: 2px solid black;
+        background-color: black;
+        border-radius: 2px;
+        padding-left: 155px;
+        padding-top: 10px;
+        font-weight: bold;
+        color: white;
+        max-width: 640px;
+       }
+       .ft{
+        font-family: "Permanent Marker", cursive;
+        margin-left: 0px;
+       }
+   }

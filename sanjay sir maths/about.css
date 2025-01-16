@@ -1,0 +1,320 @@
+
+body{
+    background-color: rgb(234 188 138);
+    margin: 0px;
+    padding: 0px;
+
+}
+
+@media only screen and (max-width:640px){
+    body{
+        background-color: rgb(234 188 138);
+        margin: 0px;
+        padding: 0px;
+        max-width: 640px;
+    
+    }
+}
+
+
+
+/* creating navigation bar */
+
+
+#nav{
+    display: flex;
+   
+    align-items: center;
+    position:relative;
+    left: 0px;
+    width: 100%;
+  
+    
+    top: 0px;
+    
+   
+    
+}
+#nav::before{
+    content: "";
+    background-color: #b700b2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+  
+}
+#logo{
+    margin: 10px 3px ;
+}
+#logo img{
+    height: 86px;
+    width: 100px;
+    border-radius: 100px;
+    margin: 3px 6px;
+}
+#nav ul{
+    display: flex;
+    
+   
+}
+/* #nav ul li{
+    list-style: none;
+    font-size: 1.3rem;
+} */
+#nav ul a li{
+    color: beige;
+    display: block;
+    padding: 0px 48px;
+    border-radius: 2px;
+    text-decoration:none;
+    list-style: none;
+    font-size: 32px;
+    font-family: "Rakkas", serif;
+}
+#nav ul li:hover{
+    color: brown;
+    background-color: azure;
+}
+
+/* mediA queries for navigation bar */
+@media only screen and (max-width:640px) {
+    
+    #nav{
+        display: flex;
+       
+        align-items: center;
+        position:relative;
+        left: 0px;
+        width: 100%;
+      
+        
+        top: 0px;
+        
+       
+        
+    }
+    #nav::before{
+        content: "";
+        background-color: #b700b2;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.7;
+      
+    }
+    #logo{
+        margin: 10px 3px ;
+    }
+    #logo img{
+        height: 86px;
+        width: 100px;
+        border-radius: 100px;
+        margin: 3px 6px;
+    }
+    #nav ul{
+        display: flex;
+        
+       
+    }
+    /* #nav ul li{
+        list-style: none;
+        font-size: 1.3rem;
+    } */
+    #nav ul a li{
+        color: beige;
+        display: block;
+        padding: 19px 20px;
+        border-radius: 2px;
+        text-decoration:none;
+        list-style: none;
+        font-size: 18px;
+        font-family: "Rakkas", serif;
+    }
+    #nav ul li:hover{
+        color: brown;
+        background-color: azure;
+    }
+        
+    }
+
+
+    /* Creating css for about us section */
+
+
+h1{
+    margin-left: 435px;
+    font-family: "Bungee Tint", sans-serif;
+    
+
+
+}
+
+#about >img{
+    height: 550px;
+    width: 100%;
+    /* background-color: rgb(143, 120, 92); */
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    top: 15px;
+    left: 0px;
+    bottom: 0px;
+    right: 10px;
+
+}
+
+#cont{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+    background-color: rgb(244, 144, 23);
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 10px;
+
+}
+#cont >a > button{
+    
+    margin-top: 30px;
+    margin-left: 435px;
+    border-radius: 100px;
+    height: 48px;
+    width: 322px;
+    background-color: beige;
+
+
+
+
+}
+h3{
+    margin-left: 438px;
+display: inline;
+}
+
+/* media queries for footer   */
+
+@media only screen and (max-width:640px){
+
+    
+h1{
+    margin-left: 250px;
+    font-family: "Bungee Tint", sans-serif;
+    
+
+
+}
+
+#about >img{
+    height: 550px;
+    width: 100%;
+    /* background-color: rgb(143, 120, 92); */
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    top: 15px;
+    left: 0px;
+    bottom: 0px;
+    right: 10px;
+
+}
+
+#cont{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+    background-color: rgb(244, 144, 23);
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    top: -24px;
+    left: 0px;
+    bottom: 0px;
+    right: 10px;
+
+}
+#cont >a > button{
+    
+    margin-top: 30px;
+    margin-left: 162px;
+    border-radius: 100px;
+    height: 48px;
+    width: 322px;
+    background-color: beige;
+
+
+
+
+}
+h3{
+    margin-left: 168px;
+display: inline;
+}
+
+}
+
+
+.foot{
+    margin-left: 420px;
+    font-family: "Bungee Tint", sans-serif;
+   
+   }
+
+   footer{
+     
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 2px;
+    padding-left: 420px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: white;
+   }
+   .ft{
+    font-family: "Permanent Marker", cursive;
+    margin-left: 0px;
+   }
+
+
+   
+   /* media queries for footer   */
+
+   @media only screen and (max-width:640px){
+
+    .foot{
+        margin-left: 150px;
+        font-family: "Bungee Tint", sans-serif;
+       }
+    
+       footer{
+        border: 2px solid black;
+        background-color: black;
+        border-radius: 2px;
+        padding-left: 155px;
+        padding-top: 10px;
+        font-weight: bold;
+        color: white;
+        max-width: 640px;
+       }
+       .ft{
+        font-family: "Permanent Marker", cursive;
+        margin-left: 0px;
+       }
+
+   }

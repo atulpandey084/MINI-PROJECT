@@ -1,0 +1,657 @@
+
+*{
+    left: 0;
+    top: 0;
+}
+
+
+body{
+    background-color: rgb(234 188 138);
+    margin: 0px;
+    padding: 0px;
+
+}
+@media only screen and (max-width:640px){
+    body{
+        background-color: rgb(234 188 138);
+        margin: 0px;
+        padding: 0px;
+        max-width: 640px;
+    
+    }
+}
+
+
+
+
+/* creating navigation bar */
+
+
+#nav{
+    display: flex;
+   
+    align-items: center;
+    position:relative;
+    left: 0px;
+    width: 100%;
+  
+    
+    top: 0px;
+    
+   
+    
+}
+#nav::before{
+    content: "";
+    background-color: #b700b2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+  
+}
+#logo{
+    margin: 10px 3px ;
+}
+#logo img{
+    height: 86px;
+    width: 100px;
+    border-radius: 100px;
+    margin: 3px 6px;
+}
+#nav ul{
+    display: flex;
+    
+   
+}
+/* #nav ul li{
+    list-style: none;
+    font-size: 1.3rem;
+} */
+#nav ul a li{
+    color: beige;
+    display: block;
+    padding: 0px 48px;
+    border-radius: 2px;
+    text-decoration:none;
+    list-style: none;
+    font-size: 32px;
+    font-family: "Rakkas", serif;
+}
+#nav ul li:hover{
+    color: brown;
+    background-color: azure;
+}
+
+
+/* mediA queries for navigation bar */
+@media only screen and (max-width:640px) {
+    
+#nav{
+    display: flex;
+   
+    align-items: center;
+    position:relative;
+    left: 0px;
+    width: 100%;
+  
+    
+    top: 0px;
+    
+   
+    
+}
+#nav::before{
+    content: "";
+    background-color: #b700b2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+  
+}
+#logo{
+    margin: 10px 3px ;
+}
+#logo img{
+    height: 86px;
+    width: 100px;
+    border-radius: 100px;
+    margin: 3px 6px;
+}
+#nav ul{
+    display: flex;
+    
+   
+}
+/* #nav ul li{
+    list-style: none;
+    font-size: 1.3rem;
+} */
+#nav ul a li{
+    color: beige;
+    display: block;
+    padding: 19px 20px;
+    border-radius: 2px;
+    text-decoration:none;
+    list-style: none;
+    font-size: 18px;
+    font-family: "Rakkas", serif;
+}
+#nav ul li:hover{
+    color: brown;
+    background-color: azure;
+}
+    
+}
+
+
+/* cssfor banner */
+
+#banner img{
+    height: 412px;
+    width: 100%;
+    /* background-color: rgb(143, 120, 92); */
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    bottom: 0px;
+    right: 10px;
+
+}
+
+/* media queries for banner  */
+@media only screen and (max-width:640px){
+    #banner img{
+        height: 412px;
+        width: 95%;
+        /* background-color: rgb(143, 120, 92); */
+        border: 2px solid black;
+        border-radius: 10px;
+        position: relative;
+        top: 15px;
+        left: 10px;
+        bottom: 0px;
+        right: 10px;
+    
+    }
+
+}
+
+/* css for about */
+#about{
+    border: 2px solid yellow;
+    color: 2px solid yellow;
+    color: rgb(192 48 12);
+    background-color: rgb(245, 184, 92);
+    font-size: 15px;
+    width: 94%;
+    height: 200px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 34px;
+    text-align: center;
+    left: 35px;
+    border-radius: 10px;
+}
+.btn{
+    border: 2px solid black;
+    background-color: rgb(214, 127, 13);
+    color: white;
+    font-weight: bold;
+}
+
+/* media queries for about */
+@media only screen and (max-width:640px){
+    #about{
+        border: 2px solid yellow;
+        color: rgb(95, 241, 241);
+        background-color: rgb(245, 184, 92);
+        font-size: 15px;
+        width: 94%;
+        height: 268px;
+        position: relative;
+        margin-left: 20px;
+        margin-top: 34px;
+        text-align: center;
+        left: 1px;
+        border-radius: 10px;
+    }
+    .btn{
+        border: 2px solid black;
+        background-color: rgb(214, 127, 13);
+        color: white;
+        font-weight: bold;
+    }
+}
+
+ /* css for choose sub  */
+#choosesub{
+    border: 2px solid black;
+    top: 5px;
+    left: 5px;
+    display: flex;
+    width: 100%;
+    height: 280px;
+    flex-direction: row;
+    position: relative;
+    background-color: rgb(243, 176, 179);
+
+} 
+#choosesub a div img{
+    border: 2px solid black;
+    /* top: 5px;
+    left: 5px; */
+    /* display: flex; */
+    width: 98%;
+    height: 260px;
+    margin-top: 8px ;
+    margin-left: 16px;
+    margin-right: 88px;
+   
+
+
+
+    /* flex-direction: row; */
+    position: relative;
+    /* background-color: rgb(243, 176, 179); */
+
+}
+.csh{
+ margin-left: 420px;
+ font-family: "Bungee Tint", sans-serif;
+
+}
+
+ /* media queries for choose sub    */
+
+ @media only screen and (max-width:640px){
+    #choosesub{
+        border: 2px solid black;
+        top: 5px;
+        left: 5px;
+        display: flex;
+        width: 98%;
+        height: 280px;
+        flex-direction: row;
+        position: relative;
+        background-color: rgb(243, 176, 179);
+    
+    } 
+    #choosesub a div img{
+        border: 2px solid black;
+        /* top: 5px;
+        left: 5px; */
+        /* display: flex; */
+        width: 97%;
+        height: 276px;
+        margin-top: 0px ;
+        margin-left: 0px;
+       
+       
+    
+    
+    
+        /* flex-direction: row; */
+        position: relative;
+        /* background-color: rgb(243, 176, 179); */
+    
+    }
+    .csh{
+     margin-left: 216px;
+     font-family: "Bungee Tint", sans-serif;
+    
+    }
+ }
+
+/* creating important question section */
+#impq{
+    border: 2px solid black;
+    top: 5px;
+    left: 5px;
+    display: flex;
+    width: 100%;
+    height: 280px;
+    flex-direction: row;
+    position: relative;
+    background-color: rgb(243, 176, 179);
+
+} 
+#impq a div img{
+    border: 2px solid black;
+    /* top: 5px;
+    left: 5px; */
+    /* display: flex; */
+    width: 98%;
+    height: 260px;
+    margin-top: 8px ;
+    margin-left: 16px;
+    margin-right: 88px;
+   
+
+
+
+    /* flex-direction: row; */
+    position: relative;
+    /* background-color: rgb(243, 176, 179); */
+
+}
+.iq{
+ margin-left: 420px;
+ font-family: "Bungee Tint", sans-serif;
+}
+ /* media queries for impq   */
+
+ @media only screen and (max-width:640px){
+    #impq{
+        border: 2px solid black;
+        top: 5px;
+        left: 5px;
+        display: flex;
+        width: 98%;
+        height: 280px;
+        flex-direction: row;
+        position: relative;
+        background-color: rgb(243, 176, 179);
+    
+    } 
+    #impq a div img{
+        border: 2px solid black;
+        /* top: 5px;
+        left: 5px; */
+        /* display: flex; */
+        width: 97%;
+        height: 276px;
+        margin-top: 0px ;
+        margin-left: 0px;
+        margin-right: 0px;
+       
+    
+    
+    
+        /* flex-direction: row; */
+        position: relative;
+        /* background-color: rgb(243, 176, 179); */
+    
+    }
+    .iq{
+     margin-left: 216px;
+     font-family: "Bungee Tint", sans-serif;
+    }
+
+ }
+
+/* creating previous year question paper section */
+#pyq{
+    border: 2px solid black;
+    top: 5px;
+    left: 5px;
+    display: flex;
+    width: 100%;
+    height: 280px;
+    flex-direction: row;
+    position: relative;
+    background-color: rgb(243, 176, 179);
+
+} 
+#pyq a div img{
+    border: 2px solid black;
+    /* top: 5px;
+    left: 5px; */
+    /* display: flex; */
+    width: 98%;
+    height: 260px;
+    margin-top: 8px ;
+    margin-left: 16px;
+    margin-right: 88px;
+   
+
+
+
+    /* flex-direction: row; */
+    position: relative;
+    /* background-color: rgb(243, 176, 179); */
+
+}
+.pq{
+ margin-left: 420px;
+ font-family: "Bungee Tint", sans-serif;
+}
+/* media queries for pyq   */
+
+@media only screen and (max-width:640px){
+    #pyq{
+        border: 2px solid black;
+        top: 5px;
+        left: 5px;
+        display: flex;
+        width: 98%;
+        height: 280px;
+        flex-direction: row;
+        position: relative;
+        background-color: rgb(243, 176, 179);
+    
+    } 
+    #pyq a div img{
+        border: 2px solid black;
+        /* top: 5px;
+        left: 5px; */
+        /* display: flex; */
+        width: 97%;
+        height: 276px;
+        margin-top: 0px ;
+        margin-left: 0px;
+        margin-right: 0px;
+       
+    
+    
+    
+        /* flex-direction: row; */
+        position: relative;
+        /* background-color: rgb(243, 176, 179); */
+    
+    }
+    .pq{
+     margin-left: 121px;
+     font-family: "Bungee Tint", sans-serif;
+    }
+}
+ /* css for video */
+.kb{
+    margin-left: 420px;
+    font-family: "Bungee Tint", sans-serif;
+   }
+   #video >video{
+    border: 5px solid orange;
+    border-radius: 10px;
+    height: 250px;
+    width: 708px;
+   margin-left: 207px;
+   background-color: rgb(174, 88, 118);
+
+   }
+   /* media queries for impq   */
+
+ @media only screen and (max-width:640px){
+    .kb{
+        margin-left: 121px;
+        font-family: "Bungee Tint", sans-serif;
+       }
+       #video >video{
+        border: 5px solid orange;
+        border-radius: 10px;
+        height: 250px;
+        width: 447px;
+       margin-left: 104px;
+       background-color: rgb(174, 88, 118);
+    
+       }
+ }
+
+
+   /* creating review section */
+   /* #review{
+    border: 2px solid black;
+    top: 5px;
+    left: 5px;
+    display: flex;
+    width: 100%;
+    height: 260px;
+    flex-direction: row;
+    position: relative;
+    background-color: rgb(243, 176, 179);
+
+} 
+#review >div >img{
+    height: 250px;
+    width: 98%;
+    background-color: rgb(238, 241, 61);
+    border: 1px solid blue;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+.rev{
+ margin-left: 420px;
+ font-family: "Bungee Tint", sans-serif;
+}
+ /* media queries for impq   */
+/* 
+ @media only screen and (max-width:640px){
+    #review{
+        border: 2px solid black;
+        top: 5px;
+        left: 5px;
+        display: flex;
+        width: 98%;
+        height: 530px;
+        flex-direction: row;
+        position: relative;
+        background-color: rgb(243, 176, 179);
+        flex-wrap: wrap;
+    
+    } 
+    #review >div >img{
+        height: 250px;
+        width: 98%;
+        background-color: rgb(238, 241, 61);
+        border: 1px solid blue;
+        text-align: center;
+        margin: 5px;
+        border-radius: 5px;
+
+    }
+    .rev{
+     margin-left: 191px;
+     font-family: "Bungee Tint", sans-serif;
+    }
+
+ } */ */
+ .kb{
+    margin-left: 420px;
+    left: 420px;
+    font-family: "Bungee Tint", sans-serif;
+   }
+ .d-block {
+    border: 2px solid black;
+    top: 5px;
+    left: 55px;
+
+    width: 90%;
+    height: 350px;
+    border-radius: 20px;
+
+
+    position: relative;
+    background-color: rgb(243, 176, 179);
+}
+
+/* media queries for owl caraousel   */
+
+@media only screen and (max-width:640px) {
+    .d-block {
+        border: 2px solid black;
+        top: 5px;
+        left: 5px;
+
+        width: 100%;
+        height: 257px;
+
+        position: relative;
+        background-color: rgb(243, 176, 179);
+    }
+    .kb{
+        margin-left: 191px;
+        font-family: "Bungee Tint", sans-serif;
+       }
+
+}
+/* creating footer */
+.foot{
+    margin-left: 420px;
+    font-family: "Bungee Tint", sans-serif;
+   }
+
+   footer{
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 2px;
+    padding-left: 420px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: white;
+   }
+   h1{
+    font-family: "Permanent Marker", cursive;
+   }
+
+   /* media queries for footer   */
+
+   @media only screen and (max-width:640px){
+
+    .foot{
+        margin-left: 150px;
+        font-family: "Bungee Tint", sans-serif;
+       }
+    
+       footer{
+        border: 2px solid black;
+        background-color: black;
+        border-radius: 2px;
+        padding-left: 155px;
+        padding-top: 10px;
+        font-weight: bold;
+        color: white;
+        max-width: 640px;
+       }
+       h1{
+        font-family: "Permanent Marker", cursive;
+       }
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
